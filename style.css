@@ -2,17 +2,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-
-}
-
 button {
-    width: 271px;
-    height: 80px;
+    width: 250px;
+    height: 50px;
     border: 0;
     border-radius: 15px;
 
     background-color: #58A9A5;
+}
+
+.start-link {
+    margin-top: 30px;
 }
 
 .logo-block {
@@ -23,7 +23,7 @@ button {
     font-weight: 800;
     color: #58A9A5;
     font-size: 35px;
-    margin: 20px;
+    margin: 25px;
 }
 
 a {
@@ -33,20 +33,39 @@ a {
     size: 25px;
 }
 
+.nav-links:active {
+    border-bottom: 1px solid #FEC62D;
+}
+
+.links__active {
+    color: #58A9A5; 
+    z-index: 1001;
+}
+
+.heading-block {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 140px;
     padding: 30px 0;
-}
 
-.container {
     max-width: 1240px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* .header__inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} */
 
 button a {
     color: #fff;
@@ -54,6 +73,23 @@ button a {
 
 .sign-up_button {
     margin-left: 75px;
+}
+
+.brands_nav {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.brands:nth-child(2) {
+    margin-top: 60px;
+}
+
+.brands:nth-child(3) {
+    margin-top: 70px;
+}
+
+.brands:nth-child(4) {
+    margin-top: 30px;
 }
 
 .nav_ul {
@@ -70,16 +106,9 @@ button a {
     color: #ffffff;
 }
 
-.first-heading {
-    font-weight: 800;
-    font-size: 70px;
-    width: 674px;
-    height: 315px;
-    margin-top: 318px;
-}
-
 .heading {
-    font-size: 70px;
+    font-weight: 800;
+    font-size: 50px;
 }
 
 .start-link {
@@ -94,10 +123,6 @@ button a {
     object-fit: cover;
     width: 1063px;
     height: 350px;
-}
-
-.how-it-works_div {
-   
 }
 
 .right-block {
@@ -118,16 +143,6 @@ button a {
     border: none;
 
     background-color: #58A9A5;
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.contacts {
-    flex-wrap: wrap;
-    display: flex;
 }
 
 .send-now {
@@ -153,6 +168,41 @@ footer {
     height: 200px;
     display: flex;
     padding: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1001;
+}
+
+.testimonial_heading {
+    margin: 50px;
+    
+}
+
+.brands_block {
+    display: flex;
+    width: 100vh;
+    flex-wrap: wrap;
+}
+
+.brands_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rooms_block {
+    width: 100vh;
+    display: flex;
+}
+
+.background-green {
+    background-color: #CCF0E6;
+    /* width: 50vh; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 
 input[type="text"] {
